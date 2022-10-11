@@ -44,7 +44,7 @@ export const ProductsView = () => {
               {items.length ? (
                 <Items items={items} />
               ) : (
-                <h1 className='col-10 text-capitalize'>
+                <h1 className='col-10 text-center text-capitalize'>
                   no products matched your filter.
                 </h1>
               )}
