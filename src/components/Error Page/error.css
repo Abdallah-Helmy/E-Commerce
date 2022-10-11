@@ -1,0 +1,5 @@
+.container h1 {
+  color: var(--main-color);
+  font-weight: bold;
+  letter-spacing: 3px;
+}

@@ -1,0 +1,69 @@
+* {
+  list-style-type: none;
+  text-align: start !important;
+}
+
+.content {
+  position: sticky;
+  top: 1rem;
+}
+
+.filter .content input {
+  background-color: #f1f5f8;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 4px;
+}
+
+ul {
+  padding: 0px !important;
+}
+
+ul li {
+  cursor: pointer;
+}
+
+.category h5 {
+  color: var(--main-color);
+}
+
+.category ul li {
+  color: var(--grey-color);
+  text-transform: capitalize;
+  margin-bottom: 5px;
+  width: fit-content;
+}
+
+.company select {
+  background-color: #f1f5f8;
+}
+
+.colors ul {
+  display: flex;
+  align-items: center;
+}
+
+.colors ul li:not(:first-child) {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  margin-left: 8px;
+}
+
+.active-category {
+  border-bottom: 2px solid var(--grey-color);
+}
+
+.blur {
+  opacity: 0.4;
+}
+
+.all-active {
+  border-bottom: 2px solid var(--grey-color);
+  color: var(--grey-color);
+  opacity: 1;
+}
+
+.color-active {
+  opacity: 1;
+}

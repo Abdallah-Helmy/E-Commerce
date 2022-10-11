@@ -1,0 +1,32 @@
+.container img {
+  width: 175px;
+}
+
+.container .cart,
+.container img {
+  cursor: pointer;
+}
+
+.container .cart h3 {
+  color: var(--main-color);
+}
+
+.container .cart {
+  position: relative;
+}
+
+.container .cart .amount {
+  position: absolute;
+  top: -13px;
+  right: -13px;
+  width: 30px;
+  height: 30px;
+  background-color: var(--second-color);
+  border-radius: 50%;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
